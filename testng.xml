@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="listeners.Listeners" />
+	</listeners>
+
+	<test thread-count="5" name="LoginTest">
+		<classes>
+			<class name="tests.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="AddToWishlistTest">
+		<classes>
+			<class name="tests.AddToWishlistTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="AddToCartTest">
+		<classes>
+			<class name="tests.AddToCartTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="LaptopCategoryTest">
+		<classes>
+			<class name="tests.LaptopCategoryTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="ProductDetailTest">
+		<classes>
+			<class name="tests.ProductDetailTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

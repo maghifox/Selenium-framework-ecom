@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="40599" started-at="2022-08-25T00:06:25 ICT" finished-at="2022-08-25T00:07:05 ICT">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="40599" started-at="2022-08-25T00:06:25 ICT" finished-at="2022-08-25T00:07:05 ICT">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="openingWeb()[pri:0, instance:tests.LoginTest@7113b13f]" name="openingWeb" is-config="true" duration-ms="7828" started-at="2022-08-25T00:06:25 ICT" finished-at="2022-08-25T00:06:32 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingWeb -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@7113b13f]" name="login" duration-ms="5031" started-at="2022-08-25T00:06:32 ICT" data-provider="getLoginData" finished-at="2022-08-25T00:06:37 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maghidot@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kalisari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closure()[pri:0, instance:tests.LoginTest@7113b13f]" name="closure" is-config="true" duration-ms="71" started-at="2022-08-25T00:06:37 ICT" finished-at="2022-08-25T00:06:38 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method status="PASS" signature="openingWeb()[pri:0, instance:tests.LoginTest@7113b13f]" name="openingWeb" is-config="true" duration-ms="13336" started-at="2022-08-25T00:06:38 ICT" finished-at="2022-08-25T00:06:51 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingWeb -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@7113b13f]" name="login" duration-ms="14190" started-at="2022-08-25T00:06:51 ICT" data-provider="getLoginData" finished-at="2022-08-25T00:07:05 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closure()[pri:0, instance:tests.LoginTest@7113b13f]" name="closure" is-config="true" duration-ms="81" started-at="2022-08-25T00:07:05 ICT" finished-at="2022-08-25T00:07:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.LaptopCategoryTest">
+        <test-method status="PASS" signature="laptopCategory()[pri:0, instance:tests.LaptopCategoryTest@e874448]" name="laptopCategory" duration-ms="0" started-at="2022-08-25T00:06:25 ICT" finished-at="2022-08-25T00:06:25 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- laptopCategory -->
+      </class> <!-- tests.LaptopCategoryTest -->
+      <class name="tests.AddToCartTest">
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:tests.AddToCartTest@587d1d39]" name="addToCart" duration-ms="7" started-at="2022-08-25T00:06:25 ICT" finished-at="2022-08-25T00:06:25 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+      </class> <!-- tests.AddToCartTest -->
+      <class name="tests.AddToWishlistTest">
+        <test-method status="PASS" signature="addToWishlist()[pri:0, instance:tests.AddToWishlistTest@1500955a]" name="addToWishlist" duration-ms="0" started-at="2022-08-25T00:06:25 ICT" finished-at="2022-08-25T00:06:25 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToWishlist -->
+      </class> <!-- tests.AddToWishlistTest -->
+      <class name="tests.ProductDetailTest">
+        <test-method status="PASS" signature="productDetail()[pri:0, instance:tests.ProductDetailTest@11758f2a]" name="productDetail" duration-ms="0" started-at="2022-08-25T00:07:05 ICT" finished-at="2022-08-25T00:07:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDetail -->
+      </class> <!-- tests.ProductDetailTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
